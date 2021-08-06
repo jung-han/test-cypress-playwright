@@ -1,0 +1,21 @@
+{
+  "name": "test-cypress-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 8000",
+    "build": "parcel build src/index.html --out-dir dist",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "parcel": "^2.0.0-rc.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
